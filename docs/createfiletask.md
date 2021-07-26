@@ -43,14 +43,14 @@ curl -X POST \
 }'
 ```
 
-### 本地混合数据文件导入(4.0版本后开启了混合持久化)
+### 本地混合持久化数据文件导入(4.0版本后是否开启了混合持久化)
 
 ```shell script
 curl -X POST \
   http://10.0.0.100:8080/api/v2/file/creattask \
   -H 'Content-Type: application/json' \
   -d '{
-    "fileAddress": "/Users/test/Desktop/test.rdb",
+    "fileAddress": "/Users/test/Desktop/appendonly.aof",
     "targetRedisAddress": "192.168.1.10:6379",
     "synctype":"MIXED",
     "targetPassword": "xxxxxx",
@@ -102,7 +102,7 @@ curl -X POST \
   http://10.0.0.100:8080/api/v2/file/creattask \
   -H 'Content-Type: application/json' \
   -d '{
-    "fileAddress": "http://www.test.com/test.rdb",
+    "fileAddress": "http://www.test.com/appendonly.aof",
     "targetRedisAddress": "192.168.1.10:6379",
     "synctype":"ONLINEMIXED",
     "targetPassword": "xxxxxx",
