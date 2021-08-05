@@ -2,7 +2,7 @@
 
 [comment]: <> (![img]&#40;img/image-20210805102621785.png&#41;)
 
-<img src="img/image-20210805102621785.png" alt="image-20210805102621785" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/TraceNature/redissyncer-docs/main/docs/dashboard/img/image-20210805102621785.png" alt="image-20210805102621785" style="zoom:50%;" />
 
 ###  账号密码
 
