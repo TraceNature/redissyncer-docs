@@ -1,7 +1,13 @@
 * [1、首页](/)
 * 3.1  
 * 3.3
+    * 部署文档
+        * [1、server](docs)
+        * [1、dashboard](docs)
     * Dashboard
+        * [1、登录](docs/dashboard/login.md)
+        * [2、任务列表](docs/dashboard/tasklist.md)
+        * [3、RDB版本管理]()
     * 接口文档
         * [1、创建在线任务](docs/createtask.md)
         * [2、创建文件任务](docs/createfiletask.md)  
@@ -38,8 +44,8 @@
   - [Server-Side Rendering(SSR)](ssr.md)
   - [Embed Files](embed-files.md)-->
 
-[comment]: <> (- **Links**)
+[comment]: <> "- **Links**"
 
-[comment]: <> (- [![code]&#40;https://icongr.am/clarity/link.svg?size=16&color=808080&#41; 京东云]&#40;https://www.jdcloud.com&#41;)
+[comment]: <> "- [![code]&#40;https://icongr.am/clarity/link.svg?size=16&color=808080&#41; 京东云]&#40;https://www.jdcloud.com&#41;"
 
-[comment]: <> (- [![code]&#40;https://icongr.am/clarity/link.svg?size=16&color=808080&#41; 申请友链]&#40;#&#41;)
+[comment]: <> "- [![code]&#40;https://icongr.am/clarity/link.svg?size=16&color=808080&#41; 申请友链]&#40;#&#41;"
